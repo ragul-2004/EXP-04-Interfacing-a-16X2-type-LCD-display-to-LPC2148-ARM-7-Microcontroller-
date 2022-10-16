@@ -1,8 +1,8 @@
 # EXP-04-Interfacing a 16X2 type LCD display to LPC2148 ARM 7Microcontroller
 ~~~
-Name : H.Syed Abdul Wasih
-Reg no : 212221240057
-Date of experiment : 14/10/2022
+Name : S.Mohan Raj
+Reg no : 212221230065
+Date of experiment : 16/10/2022
 ~~~
 ## Interfacing a 16X2 type LCD display to LPC2148 ARM 7 Microcontroller 
 ## Aim: 
@@ -171,20 +171,19 @@ int main(void)
 {
 	
 	LCD_INIT();
-	LCD_STRING("Welcome to AI&ML");
+	LCD_STRING("19EE309");
 	LCD_CMD(0XC0);
-	LCD_STRING("212221240057");
+	LCD_STRING("ARM");
 	
 	return 0;
 }
 ~~~
 ## Proteus simulation: 
-### LCD OFF:
-![2](https://user-images.githubusercontent.com/91781810/195811475-5c2bf36b-1220-48cc-b7f8-ba7fab3f6ba8.jpg)
+### LCD OFF:![1](https://user-images.githubusercontent.com/94828335/196030523-4eb6a1f4-3cc6-44ec-b4be-cc600a2205cc.jpg)
 ### LCD ON:
-![1](https://user-images.githubusercontent.com/91781810/195811528-316bc48c-8dbc-4a04-978a-b18caa2dd93e.jpg)
+![2](https://user-images.githubusercontent.com/94828335/196030534-a800ea0c-0f35-43bf-a9d9-5a479ac179d9.jpg)
 ##  Layout Diagram: 
-![3](https://user-images.githubusercontent.com/91781810/195811664-c87b5312-d531-46ec-87e6-3f5e0bf2fa53.jpg)
+![3](https://user-images.githubusercontent.com/94828335/196030542-a24bb371-73f7-40f3-9162-feac20c686a3.jpg)
 ## Result :
 Interfaced an LCD with ARM microcontroller is executed and displayed the strings.
 
